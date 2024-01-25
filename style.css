@@ -1,6 +1,6 @@
 body{
     color:#1f1512;
-    background-image: url(../img/images.jpeg);
+    background-image: url(./img/images.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -54,7 +54,7 @@ button{
 @media screen and (max-width: 600px) {
     
     body{
-        background-image: url(../img/coffee.jpg);
+        background-image: url(./img/coffee.jpg);
         background-repeat: repeat-y;
         background-size: cover;
         color:#561C24;
