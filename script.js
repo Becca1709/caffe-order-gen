@@ -16,13 +16,13 @@ function magicTrick() {
     domAccess.appendChild(p);
     switch (eightBall){
       case 0:
-      p.innerHTML='Flat white';
+      p.innerHTML='flat white';
       break;
       case 1:
-      p.innerHTML='Latte';
+      p.innerHTML='latte';
       break;
       case 2:
-      p.innerHTML='Cappuccino';
+      p.innerHTML='cappuccino';
       break;
       case 3:
       p.innerHTML='espresso';
@@ -42,7 +42,7 @@ function magicTrick() {
       p.innerHTML='hot chocolate';
       break;
       case 9:
-      p.innerHTML='iced chochocolate';
+      p.innerHTML='iced chocolate';
       break;
       case 10:
       p.innerHTML='iced mocha';

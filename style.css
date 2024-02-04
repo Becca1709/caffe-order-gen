@@ -1,4 +1,4 @@
-body{
+/*body{
     color:#1f1512;
     background-image: url(./img/images.jpeg);
     background-size: cover;
@@ -9,17 +9,32 @@ body{
     justify-content: center;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-top: 150px;
-}
+}*/
+
+body{
+    background-image: url(./img/coffee.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    color:#561C24;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
 
 .container{
-  
     min-width:300px;
     min-height: fit-content;
+    background-color:  #561C24;
+    border-radius: 32px;
+    padding:16px;
 }
 
-h2{
+h1{
 
-    font-size: 2rem;
+    font-size: 5rem;
     text-align: center;
 }
 p{
@@ -27,9 +42,12 @@ p{
     color: black;
     font-family: monospace;
     font-size: 36px;
+    color:#E8D8C4;
+    font-weight: bold;
+    padding: 0.5rem;
 }
 #goagain{
-    margin-top: 32px;
+    margin-top: 16px;
 }
 .input{
     display: flex;
@@ -43,6 +61,8 @@ button{
     border-radius: 32px;
     font-family: monospace;
     font-size: 16px;
+    padding: 16px;
+    
 
 
  }
@@ -53,24 +73,17 @@ button{
 
 @media screen and (max-width: 600px) {
     
-    body{
-        background-image: url(./img/coffee.jpg);
-        background-repeat: repeat-y;
-        background-size: cover;
-        color:#561C24;
-        font-family: Arial, Helvetica, sans-serif;
-     }
+  
      header{
         background-color: rgba(245, 239, 239, 0.511);
         border-radius: 32px;
         margin: 32px;
        padding: 16px;
+
      }
-     .container{
-        background-color:  #561C24;
-        border-radius: 32px;
+     h1{
+        font-size: 2.5rem;
      }
-    
      p{
         font-size: 21px;
         color:#E8D8C4;
